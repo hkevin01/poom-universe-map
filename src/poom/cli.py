@@ -13,7 +13,7 @@ from .utils import load_yaml, ensure_dir
 
 
 def main():
-    parser = argparse.ArgumentParser(description="POOXM Universe Map demo (PyTorch + CUDA)")
+    parser = argparse.ArgumentParser(description="POOM Universe Map demo (PyTorch + CUDA)")
     parser.add_argument("--config", type=str, default="configs/default.yaml", help="Path to YAML config")
     args = parser.parse_args()
 
@@ -26,7 +26,7 @@ def main():
     out_dir = cfg.get("out_dir", "outputs")
     ensure_dir(out_dir)
     run_stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    run_dir = os.path.join(out_dir, f'{cfg.get("experiment_name","pooxm")}_{run_stamp}')
+    run_dir = os.path.join(out_dir, f'{cfg.get("experiment_name","poom")}_{run_stamp}')
     ensure_dir(run_dir)
 
     torch.manual_seed(cfg.get("seed", 42))

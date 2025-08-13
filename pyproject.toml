@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pooxm-universe-map"
+name = "poom-universe-map"
 version = "0.1.0"
 description = "CUDA PyTorch physics demo: toy self-gravitating system producing a 'map of the universe'."
 readme = "README.md"
@@ -21,24 +21,25 @@ dependencies = [
 Homepage = "https://example.com"
 
 [project.scripts]
-pooxm = "pooxm.cli:main"
+poom = "poom.cli:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["pooxm*"]
+include = ["poom*"]
 
 [tool.pytest.ini_options]
 minversion = "7.0"
 addopts = "-q"
 pythonpath = ["src"]
+testpaths = ["tests"]
 
 [tool.black]
 line-length = 100
 
 [tool.ruff]
 line-length = 100
-select = ["E", "F", "I", "UP"]
+select = ["E", "F", "I", "UP", "N"]
 ignore = []

@@ -1,6 +1,6 @@
 import torch
-from pooxm.initial_conditions import make_ic
-from pooxm.integrators import leapfrog_step
+from poom.initial_conditions import make_ic
+from poom.integrators import leapfrog_step
 
 def test_leapfrog_runs():
     pos, vel, m = make_ic(N=16, box_size=10.0, seed=0)

@@ -1,4 +1,6 @@
-# pooxm-universe-map
+# poom-universe-map
+
+A CUDA-accelerated PyTorch demo that simulates a simple 2D self-gravitating particle system and renders a density "map of the universe." This is an illustrative sandbox inspired by the fictional "POOM Theory" to explore how local interaction rules can lead to large-scale structure patterns.ooxm-universe-map
 
 A CUDA-accelerated PyTorch demo that simulates a simple 2D self-gravitating particle system and renders a density “map of the universe.” This is an illustrative sandbox inspired by the fictional “POOXM Theory” to explore how local interaction rules can lead to large-scale structure patterns.
 
@@ -14,9 +16,9 @@ Disclaimer: “POOXM Theory” is used here purely as a narrative device for a d
 ## Project layout (src/ layout)
 
 ```text
-pooxm-universe-map/
+poom-universe-map/
 ├─ src/
-│  └─ pooxm/               # library code (CLI, physics, integrators, rendering)
+│  └─ poom/               # library code (CLI, physics, integrators, rendering)
 ├─ configs/                # YAML experiment configs
 ├─ tests/                  # unit tests (pytest)
 ├─ docs/                   # documentation and plans
@@ -50,14 +52,14 @@ pip install -r requirements.txt
 - Run the demo:
 
 ```bash
-python -m pooxm.cli --config configs/default.yaml
+python -m poom.cli --config configs/default.yaml
 ```
 
 - Or after install in editable mode:
 
 ```bash
 pip install -e .
-pooxm --config configs/default.yaml
+poom --config configs/default.yaml
 ```
 
 - Output density maps and snapshots appear in `outputs/`.

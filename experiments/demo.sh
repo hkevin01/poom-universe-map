@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/bash
+# Demo script to run a POOM universe simulation
 
-export PYTHONPATH=${PYTHONPATH:-}:src
-python -m pooxm.cli --config configs/default.yaml
+# Run with default config
+python -m poom.cli --config configs/default.yaml

@@ -1,5 +1,5 @@
 import torch
-from pooxm.physics import gravitational_acceleration
+from poom.physics import gravitational_acceleration
 
 def test_self_interaction_zero():
     pos = torch.tensor([[0.0, 0.0], [1.0, 0.0]])

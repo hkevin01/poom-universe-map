@@ -1,4 +1,4 @@
-# Project Goals
+# PDemonstrate a small, CUDA-ready PyTorch sandbox simulating a 2D self-gravitating particle system and rendering a density "map of the universe," framed by the fictional POOM narrative.emonstrate a small, CUDA-ready PyTorch sandbox simulating a 2D self-gravitating particle system and rendering a density "map of the universe," framed by the fictional POOM narrative.oject Goals
 
 ## Purpose
 Demonstrate a small, CUDA-ready PyTorch sandbox simulating a 2D self-gravitating particle system and rendering a density “map of the universe,” framed by the fictional POOXM narrative.

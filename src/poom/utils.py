@@ -13,7 +13,14 @@ class Config:
 
 
 def load_yaml(path: str) -> Config:
-    with open(path, "r") as f:
+    """Load a YAML file from disk.
+
+    Args:
+        path: Path to YAML file.
+    Returns:
+        Config wrapper around the raw dict.
+    """
+    with open(path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
     return Config(data)
 

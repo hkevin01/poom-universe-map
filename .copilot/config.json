@@ -5,8 +5,8 @@
   "chat.todoListTool.enabled": true,
   "prompts": [
     {
-      "name": "pooxm-narrative",
-      "path": "prompts/pooxm_prompt.md"
+      "name": "poom-narrative",
+      "path": "prompts/poom_prompt.md"
     }
   ]
 }

@@ -1,11 +1,11 @@
-# POOXM Universe Map – Project Plan
+# POOM Universe Map – Project Plan
 
 This plan reflects the current codebase: a PyTorch (+CUDA if available) toy N-body simulator using an O(N^2) softened gravity-like force with a leapfrog integrator, rendering density maps to PNG over time from a YAML-driven CLI.
 
 ## Phase 1 – Repository Modernization
 
 - [ ] Adopt src/ layout and adjust packaging (pyproject with setuptools find).
-  - Actions: Move library to `src/pooxm/`, configure `pyproject.toml` with `package-dir` and entry point.
+  - Actions: Move library to `src/poom/`, configure `pyproject.toml` with `package-dir` and entry point.
   - Options: Poetry/PDM for dependency management; this repo keeps setuptools + requirements.txt for simplicity.
 - [ ] Add CI with GitHub Actions for lint + tests.
   - Actions: Cache pip, run ruff+black, run pytest.
