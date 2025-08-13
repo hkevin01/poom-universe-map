@@ -1,10 +1,12 @@
 # poom-universe-map
 
-A CUDA-accelerated PyTorch demo that simulates a simple 2D self-gravitating particle system and renders a density "map of the universe." This is an illustrative sandbox inspired by the fictional "POOM Theory" to explore how local interaction rules can lead to large-scale structure patterns.ooxm-universe-map
+A CUDA-accelerated PyTorch demo that simulates a simple 2D self-gravitating particle system and renders a density "map of the universe." This is an illustrative sandbox inspired by the fictional "POOM Theory" to explore how local interaction rules can lead to large-scale structure patterns.
 
-A CUDA-accelerated PyTorch demo that simulates a simple 2D self-gravitating particle system and renders a density “map of the universe.” This is an illustrative sandbox inspired by the fictional “POOXM Theory” to explore how local interaction rules can lead to large-scale structure patterns.
+Disclaimer: "POOM Theory" is used here purely as a narrative device for a demo; this code does not claim physical accuracy or novelty.
 
-Disclaimer: “POOXM Theory” is used here purely as a narrative device for a demo; this code does not claim physical accuracy or novelty.
+## What is POOM?
+
+**POOM** (Producing Oxidative Oxygen Metabolism) is a fictional or illustrative theory inspired by real scientific concepts about the rise of atmospheric oxygen on Earth. In the context of this project, POOM refers to the emergence of complex structure and metabolism in the universe, drawing an analogy to how oxidative metabolism (using oxygen to produce energy) enabled the evolution of complex life on Earth. The "POOM Theory" narrative is used here to explore how local interaction rules in a simulated universe can lead to large-scale structure, much like how oxygen and metabolism enabled complexity in biology.
 
 ## What this project does
 
