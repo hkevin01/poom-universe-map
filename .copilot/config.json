@@ -1,0 +1,12 @@
+{
+  "chat.tools.autoApprove": true,
+  "chat.agent.maxRequests": 100,
+  "github.copilot.chat.alternateGptPrompt.enabled": true,
+  "chat.todoListTool.enabled": true,
+  "prompts": [
+    {
+      "name": "pooxm-narrative",
+      "path": "prompts/pooxm_prompt.md"
+    }
+  ]
+}

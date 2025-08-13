@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and outputs
+logs/
+outputs/
+*.log
+
+# Data caches
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Python coverage/test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Env
+.env
+.env.*
+
+# C/C++ build
+cmake-build*/
+compile_commands.json
+
+# Node
+node_modules/
+
+# Cache
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# Docs build
+site/
+docs/_build/
